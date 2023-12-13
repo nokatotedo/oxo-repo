@@ -1,0 +1,203 @@
+[
+  {
+    "name": "Ruangan A",
+    "facility": "Proyektor, Whiteboard",
+    "roomCapacity": 30,
+    "imgUrl": "https://placekitten.com/200/300",
+    "location": "Jakarta",
+    "price": 1500000,
+    "typeId": 1,
+    "authorId": 1
+  },
+  {
+    "name": "Ruangan B",
+    "facility": "Meja dan Kursi",
+    "roomCapacity": 15,
+    "imgUrl": "https://placekitten.com/200/300",
+    "location": "Jakarta",
+    "price": 800000,
+    "typeId": 2,
+    "authorId": 2
+  },
+  {
+    "name": "Ruangan C",
+    "facility": "LCD Proyektor, Sound System",
+    "roomCapacity": 50,
+    "imgUrl": "https://placekitten.com/200/300",
+    "location": "Jakarta",
+    "price": 2000000,
+    "typeId": 1,
+    "authorId": 1
+  },
+  {
+    "name": "Ruangan D",
+    "facility": "Meja, Kursi, Whiteboard",
+    "roomCapacity": 20,
+    "imgUrl": "https://placekitten.com/200/300",
+    "location": "Jakarta",
+    "price": 1000000,
+    "typeId": 2,
+    "authorId": 2
+  },
+  {
+    "name": "Ruangan E",
+    "facility": "Meja, Kursi, Proyektor",
+    "roomCapacity": 25,
+    "imgUrl": "https://placekitten.com/200/300",
+    "location": "Jakarta",
+    "price": 1200000,
+    "typeId": 1,
+    "authorId": 1
+  },
+  {
+    "name": "Ruangan F",
+    "facility": "Proyektor, Whiteboard, Sound System",
+    "roomCapacity": 40,
+    "imgUrl": "https://placekitten.com/200/300",
+    "location": "Jakarta",
+    "price": 1800000,
+    "typeId": 2,
+    "authorId": 2
+  },
+  {
+    "name": "Ruangan G",
+    "facility": "Whiteboard, Sound System",
+    "roomCapacity": 35,
+    "imgUrl": "https://placekitten.com/200/300",
+    "location": "Jakarta",
+    "price": 1600000,
+    "typeId": 1,
+    "authorId": 1
+  },
+  {
+    "name": "Ruangan H",
+    "facility": "Meja, Kursi, LCD Proyektor",
+    "roomCapacity": 30,
+    "imgUrl": "https://placekitten.com/200/300",
+    "location": "Jakarta",
+    "price": 1400000,
+    "typeId": 2,
+    "authorId": 2
+  },
+  {
+    "name": "Ruangan I",
+    "facility": "Proyektor, Whiteboard",
+    "roomCapacity": 30,
+    "imgUrl": "https://placekitten.com/200/300",
+    "location": "Jakarta",
+    "price": 1500000,
+    "typeId": 1,
+    "authorId": 1
+  },
+  {
+    "name": "Ruangan J",
+    "facility": "Meja dan Kursi",
+    "roomCapacity": 15,
+    "imgUrl": "https://placekitten.com/200/300",
+    "location": "Jakarta",
+    "price": 800000,
+    "typeId": 2,
+    "authorId": 2
+  },
+  {
+    "name": "Ruangan K",
+    "facility": "LCD Proyektor, Sound System",
+    "roomCapacity": 50,
+    "imgUrl": "https://placekitten.com/200/300",
+    "location": "Jakarta",
+    "price": 2000000,
+    "typeId": 1,
+    "authorId": 1
+  },
+  {
+    "name": "Ruangan L",
+    "facility": "Meja, Kursi, Whiteboard",
+    "roomCapacity": 20,
+    "imgUrl": "https://placekitten.com/200/300",
+    "location": "Jakarta",
+    "price": 1000000,
+    "typeId": 2,
+    "authorId": 2
+  },
+  {
+    "name": "Ruangan M",
+    "facility": "Meja, Kursi, Proyektor",
+    "roomCapacity": 25,
+    "imgUrl": "https://placekitten.com/200/300",
+    "location": "Jakarta",
+    "price": 1200000,
+    "typeId": 1,
+    "authorId": 1
+  },
+  {
+    "name": "Ruangan N",
+    "facility": "Proyektor, Whiteboard, Sound System",
+    "roomCapacity": 40,
+    "imgUrl": "https://placekitten.com/200/300",
+    "location": "Jakarta",
+    "price": 1800000,
+    "typeId": 2,
+    "authorId": 2
+  },
+  {
+    "name": "Ruangan O",
+    "facility": "Whiteboard, Sound System",
+    "roomCapacity": 35,
+    "imgUrl": "https://placekitten.com/200/300",
+    "location": "Jakarta",
+    "price": 1600000,
+    "typeId": 1,
+    "authorId": 1
+  },
+  {
+    "name": "Ruangan P",
+    "facility": "Meja, Kursi, LCD Proyektor",
+    "roomCapacity": 30,
+    "imgUrl": "https://placekitten.com/200/300",
+    "location": "Jakarta",
+    "price": 1400000,
+    "typeId": 2,
+    "authorId": 2
+  },
+  {
+    "name": "Ruangan Q",
+    "facility": "Proyektor, Whiteboard",
+    "roomCapacity": 30,
+    "imgUrl": "https://placekitten.com/200/300",
+    "location": "Jakarta",
+    "price": 1500000,
+    "typeId": 1,
+    "authorId": 1
+  },
+  {
+    "name": "Ruangan R",
+    "facility": "Meja dan Kursi",
+    "roomCapacity": 15,
+    "imgUrl": "https://placekitten.com/200/300",
+    "location": "Jakarta",
+    "price": 2000000,
+    "typeId": 1,
+    "authorId": 2
+  },
+  {
+    "name": "Ruangan S",
+    "facility": "Kasur",
+    "roomCapacity": 20,
+    "imgUrl": "https://placekitten.com/200/300",
+    "location": "Jakarta",
+    "price": 1000000,
+    "typeId": 1,
+    "authorId": 1
+  },
+  {
+    "name": "Ruangan T",
+    "facility": "Kucing",
+    "roomCapacity": 5,
+    "imgUrl": "https://placekitten.com/200/300",
+    "location": "Jakarta",
+    "price": 1800000,
+    "typeId": 2,
+    "authorId": 1
+  }
+]
+   

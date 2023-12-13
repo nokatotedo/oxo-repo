@@ -1,0 +1,28 @@
+nav #nav-top {
+  display: flex;
+  align-items: center;
+  padding: 0 80px;
+  justify-content: space-between;
+  height: 70px;
+  background-color: white;
+}
+
+nav #nav-top a {
+  font-weight: bold;
+}
+
+nav #nav-top #logo {
+  padding: 15px;
+}
+
+nav #nav-top #logo a {
+  font-family: 'Paytone One', sans-serif;
+  font-size: 35px;
+  color: #EE2E24;
+}
+
+@media only screen and (max-width: 512px) {
+  nav #nav-top {
+    padding: 0 20px;
+  }
+}

@@ -1,0 +1,52 @@
+#edit form {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  padding: 40px 80px;
+}
+
+#edit form label {
+  width: 100px;
+}
+
+#edit form select {
+  outline: none;
+  border: none;
+  width: 100%;
+  margin-left: 10px;
+}
+
+#type #edit, #upload #edit {
+  height: calc(100vh - 224px);
+}
+
+#loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+#loading p {
+  font-size: 14px;
+}
+
+#loading img {
+  width: 20px;
+  height: 20px;
+}
+
+@media only screen and (max-width: 512px) {
+  #edit form {
+    padding: 20px;
+    flex-direction: column;
+  }
+
+  #edit form label {
+    display: none;
+  }
+
+  #edit .input input {
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,35 @@
+td {
+  padding: 10px 40px;
+}
+
+.action-group #upload-btn {
+  background-color: rgb(245, 166, 35);
+}
+
+.action-group #edit-btn {
+  background-color: rgb(126, 137, 228);
+}
+
+.action-group #details-btn {
+  background-color: #1ab64f;
+}
+
+.action-group #delete-btn {
+  background-color: #EE2E24;
+}
+
+.action-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.action-group a {
+  padding: 5px;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.6);
+}

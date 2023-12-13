@@ -1,0 +1,45 @@
+#details-description {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 160px;
+  margin: 20px 0;
+  gap: 15px;
+}
+
+#details-left, #details-right {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#details-left h4, #details-left h2, #details-right h4 {
+  margin-bottom: 5px;
+}
+
+#location {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+#details-right input {
+  width: 100%;
+  outline: none;
+  border: none;
+  padding: 14px;
+  border-radius: 4px;
+  background-color: #1ab64f;
+  color: white;
+}
+
+#details-right input:hover {
+  background-color: #128036;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 512px) {
+  #details-description {
+    padding: 10px;
+    flex-direction: column;
+  }
+}

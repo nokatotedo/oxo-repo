@@ -1,0 +1,11 @@
+#error {
+  height: calc(100vh - 112px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#error h1 {
+  color: #EE2E24;
+}

@@ -1,0 +1,106 @@
+#register {
+  display: flex;
+  flex-direction: row;
+  height: calc(100vh - 112px);
+}
+
+#register-background-container {
+  width: 100%;
+  height: inherit;
+  position: relative;
+}
+
+#register-background-container img {
+  object-position: center;
+  object-fit: cover;
+  width: inherit;
+  height: inherit;
+}
+
+#register-background-container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135.46deg,#d11450,#df293a);
+  opacity: 0.5;
+}
+
+#register-description-container {
+  padding: 0 20px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 1;
+  margin-top: -20px;
+}
+
+#register-description-container h2,
+#register-description-container p {
+  color: white;
+  text-align: center;
+}
+
+#register-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+#register-container form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.input {
+  width: 100%;
+  display: flex;
+  border: 1px solid hsla(0,0%,65.1%,.2);
+  padding: 10px;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.input i {
+  width: 16px;
+  text-align: center;
+}
+
+.input input {
+  margin-left: 10px;
+}
+
+#register-container form input {
+  border: none;
+  width: 100%;
+  outline: none;
+}
+
+@media only screen and (max-width: 512px) {
+  #register {
+    gap: 20px;
+    flex-direction: column;
+    height: auto;
+  }
+
+  #register-background-container {
+    height: auto;
+  }
+
+  #register-container form {
+    margin-bottom: 70px;
+  }
+}

@@ -1,0 +1,80 @@
+nav #nav-top {
+  display: flex;
+  align-items: center;
+  padding: 0 80px;
+  justify-content: space-between;
+  height: 70px;
+  background-color: white;
+}
+
+nav #nav-top a {
+  font-weight: bold;
+}
+
+nav #nav-top i {
+  color: white;
+}
+
+#logo {
+  padding: 15px;
+}
+
+#logo a {
+  font-family: 'Paytone One', sans-serif;
+  font-size: 35px;
+  color: #EE2E24;
+}
+
+#user {
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+
+#user, #user a {
+  height: 100%;
+}
+
+#user a {
+  padding: 15px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+#user-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  min-width: 25px;
+  min-height: 25px;
+  background-color: #888;
+  border-radius: 50%;
+}
+
+#user:hover {
+  background-color: #f2f2f2;
+  border-left: 1px solid #d6d6d6;
+  border-right: 1px solid #d6d6d6;
+  border-bottom: 1px solid #d6d6d6;
+}
+
+#user:hover > a div {
+  background-color: #EE2E24;
+}
+
+#user:hover > a p {
+  color: #EE2E24;
+}
+
+@media only screen and (max-width: 512px) {
+  #user p {
+    display: none;
+  }
+  
+  nav #nav-top {
+    padding: 0 20px;
+  }
+}

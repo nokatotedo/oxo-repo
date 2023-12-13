@@ -1,0 +1,50 @@
+nav #nav-bot {
+  display: flex;
+  align-items: center;
+  padding: 0 80px;
+  justify-content: center;
+  background-color: #F3F5F7;
+  height: 42px;
+}
+
+nav #nav-bot ul {
+  display: flex;
+  gap: 10px;
+  height: 100%;
+  overflow: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+nav #nav-bot ul::-webkit-scrollbar {
+  display: none;
+}
+
+nav #nav-bot li {
+  height: 100%;
+}
+
+nav #nav-bot li a {
+  display: flex;
+  white-space: nowrap;
+  height: 100%;
+  align-items: center;
+  padding: 14px;
+  color: rgba(0, 0, 0, 0.7);
+  border: 2px solid #F3F5F7;
+}
+
+nav #nav-bot li a:hover {
+  background-color: #FFFF;
+}
+
+nav #nav-bot li #btn-all:hover {
+  color: #ee2e24;
+  background-color: transparent;
+}
+
+@media only screen and (max-width: 512px) {
+  nav #nav-bot {
+    padding: 0 20px;
+  }
+}
